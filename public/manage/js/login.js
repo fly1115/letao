@@ -106,10 +106,10 @@ $(function() {
 
 
   // 3. 重置功能实现
-  $('[type="reset"]').click(function() {
-    console.log( 1111 );
-    // 除了重置文本, 还要重置校验状态
-    $('#form').data("bootstrapValidator").resetForm();
-  });
+  //$('[type="reset"]').click(function() {
+  //  console.log( 1111 );
+  //  // 除了重置文本, 还要重置校验状态
+  //  $('#form').data("bootstrapValidator").resetForm();
+  //});
 
 });
