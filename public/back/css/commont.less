@@ -1,0 +1,140 @@
+.body_bg {
+  background-color: #222D32;
+}
+.panel .panel-title {
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+.margin-t {
+  margin-top: 150px;
+}
+
+// 主页
+// 侧边栏
+ul{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+.red{
+  color:#A94442;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+  text-decoration:none;
+}
+.lt_aside{
+    width: 180px;
+    height: 100%;
+    background-color:  #222D32;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:999;
+    transition: all 1s;
+    .title{
+      display:block;
+        height: 50px;
+        width: 100%;
+        background-color: #367FA9;
+        color:#fff;
+        text-align:center;
+        line-height:50px;
+        font-size:25px;
+      a{
+        color:#fff;
+      }
+    }
+    .user{
+      height: 180px;
+      background-color: #222D32;
+      padding-top:30px;
+      img{
+        display:block;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin:0 auto;
+      }
+      p{
+        font-size:18px;
+        text-align:center;
+        line-height:40px;
+        height: 40px;
+        color:#fff;
+      }
+    }
+    .nav{
+      ul{
+        li{
+          a{
+            height: 40px;
+            width: 100%;
+            display:block;
+            font-size:16px;
+            color:#fff;
+            padding-left:40px;
+            line-height:40px;
+            border-left:3px solid transparent;
+
+          }
+        }
+        a.current{
+          background-color: #1D1F21;
+          border-left:3px solid #069;
+        }
+      }
+      .child a{
+        padding-left:60px;
+      }
+      
+    } 
+}
+.lt_aside.hidemenu{
+  left:-180px;
+}
+
+// 右侧主体部分
+// 头部
+.it_main{
+  padding-left:180px;
+  transition: all 1s;
+  .lt_topbar{
+    height: 50px;
+    width: 100%;
+    background-color: #3C8DBC;
+    position: fixed;
+    top:0;
+    left:0;
+    padding-left:180px;
+    transition: all 1s;
+    a{
+      width: 50px;
+      height: 50px;
+      color:#fff;
+      text-align:center;
+      line-height:50px;
+      font-size:20px;
+    } 
+  }
+  .lt_topbar.hidemenu{
+    padding-left:0;
+  }
+  .bread{
+    padding-top:50px;
+    .breadcrumb{
+      margin-top:20px;
+    } 
+  } 
+}
+.it_main.hidemenu{
+  padding-left:0;
+}
+
+// 模态框
+

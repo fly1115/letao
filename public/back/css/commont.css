@@ -1,12 +1,123 @@
-body{
-    background-color: #222D32;
+.body_bg {
+  background-color: #222D32;
 }
-.panel .panel-title{
-    height: 40px;
-    font-size:20px;
-    text-align:center;
-    line-height:40px;
+.panel .panel-title {
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
 }
-.margin-t{
-    margin-top:150px;
+.margin-t {
+  margin-top: 150px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.red {
+  color: #A94442;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+.lt_aside {
+  width: 180px;
+  height: 100%;
+  background-color: #222D32;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: all 1s;
+}
+.lt_aside .title {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #367FA9;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+}
+.lt_aside .title a {
+  color: #fff;
+}
+.lt_aside .user {
+  height: 180px;
+  background-color: #222D32;
+  padding-top: 30px;
+}
+.lt_aside .user img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.lt_aside .user p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  color: #fff;
+}
+.lt_aside .nav ul li a {
+  height: 40px;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  padding-left: 40px;
+  line-height: 40px;
+  border-left: 3px solid transparent;
+}
+.lt_aside .nav ul a.current {
+  background-color: #1D1F21;
+  border-left: 3px solid #069;
+}
+.lt_aside .nav .child a {
+  padding-left: 60px;
+}
+.lt_aside.hidemenu {
+  left: -180px;
+}
+.it_main {
+  padding-left: 180px;
+  transition: all 1s;
+}
+.it_main .lt_topbar {
+  height: 50px;
+  width: 100%;
+  background-color: #3C8DBC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 180px;
+  transition: all 1s;
+}
+.it_main .lt_topbar a {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+.it_main .lt_topbar.hidemenu {
+  padding-left: 0;
+}
+.it_main .bread {
+  padding-top: 50px;
+}
+.it_main .bread .breadcrumb {
+  margin-top: 20px;
+}
+.it_main.hidemenu {
+  padding-left: 0;
 }
