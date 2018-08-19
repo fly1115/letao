@@ -88,6 +88,7 @@ a:active {
   left: -180px;
 }
 .it_main {
+  height: 1000px;
   padding-left: 180px;
   transition: all 1s;
 }
@@ -120,4 +121,7 @@ a:active {
 }
 .it_main.hidemenu {
   padding-left: 0;
+}
+.echart {
+  padding-left: 20px;
 }
